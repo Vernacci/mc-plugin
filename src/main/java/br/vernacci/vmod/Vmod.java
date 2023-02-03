@@ -9,7 +9,7 @@ public final class Vmod extends JavaPlugin {
     @Override
     public void onEnable() {
         // Plugin startup logic
-        Bukkit.getLogger().info("Servidor ligado.");
+        Bukkit.getLogger().info("Servidor babadi.");
     }
 
     @Override
