@@ -2,3 +2,9 @@ name: Vmod
 version: 1.0.0
 main: br.vernacci.vmod.Vmod
 api-version: 1.19
+commands:
+  fly:
+    description: Toggles flying
+    usage: /fly
+    aliases: f
+    permission: fly
