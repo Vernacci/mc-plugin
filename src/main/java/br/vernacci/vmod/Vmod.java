@@ -1,6 +1,7 @@
 package br.vernacci.vmod;
 
 import br.vernacci.vmod.commands.Fly;
+import br.vernacci.vmod.handlers.PlayerHandler;
 import br.vernacci.vmod.handlers.TorchHandler;
 import org.bukkit.Bukkit;
 import org.bukkit.plugin.java.JavaPlugin;
@@ -13,6 +14,7 @@ public final class Vmod extends JavaPlugin {
         Bukkit.getLogger().info("Servidor babadi.");
         getCommand("fly").setExecutor(new Fly());
         new TorchHandler(this);
+        new PlayerHandler(this);
     }
 
     @Override
